@@ -29,8 +29,6 @@ const instanse = axios.create({
   },
 });
 
-console.log("Axios instance created with config:", instanse.defaults);
-
 async function fetchMovies(
   query: string,
   page: number = 1
